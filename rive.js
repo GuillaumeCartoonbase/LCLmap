@@ -7,7 +7,7 @@ r = new rive.Rive({
 	layout: new rive.Layout({ fit: rive.Fit.Cover }),
 	stateMachines: ["State Machine 1"],
 	autoplay: true,
-	autobind: false,
+	autoBind: true,
 	artboard: "LCL-MAP",
 	fitCanvasToArtboardWidth: true,
 	fitCanvasToArtboardHeight: true,
