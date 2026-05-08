@@ -56,7 +56,7 @@ r = new rive.Rive({
 
 				// Listen for clicks coming FROM Rive → JS
 				clickedTrigger.on(() => {
-					console.log(`🖱️ Button ${index} (${label}) was clicked!`);
+					// console.log(`🖱️ Button ${index} (${label}) was clicked!`);
 					handleButtonClick(index, label);
 				});
 
