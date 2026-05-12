@@ -54,6 +54,9 @@ r = new rive.Rive({
 				const clickedTrigger = buttonInstance.trigger("clicked");
 				const isHoverBool = buttonInstance.boolean("isHover");
 
+				const nameButtonStr = buttonInstance.string("buttonText");
+				nameButtonStr.value = label;
+
 				// Listen for clicks coming FROM Rive → JS
 				clickedTrigger.on(() => {
 					// console.log(`🖱️ Button ${index} (${label}) was clicked!`);
